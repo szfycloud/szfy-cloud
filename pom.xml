@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.szfycloud.szfy</groupId>
+    <artifactId>szfy-cloud</artifactId>
+    <version>${revision}</version>
+    <name>szfy-cloud</name>
+    <packaging>pom</packaging>
+
+    <properties>
+        <revision>1.0.0</revision>
+    </properties>
+
+    <modules>
+        <module>szfy-dependencies</module>
+        <module>szfy-framework</module>
+        <module>szfy-module-system</module>
+    </modules>
+
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.szfycloud.szfy</groupId>
+                <artifactId>szfy-dependencies</artifactId>
+                <version>${revision}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
