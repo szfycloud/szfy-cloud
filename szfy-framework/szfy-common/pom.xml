@@ -4,17 +4,15 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.szfycloud.szfy</groupId>
-        <artifactId>szfy-cloud</artifactId>
+        <artifactId>szfy-framework</artifactId>
         <version>${revision}</version>
     </parent>
-    <packaging>pom</packaging>
-    <artifactId>szfy-framework</artifactId>
+    <artifactId>szfy-common</artifactId>
+    <version>${revision}</version>
     <name>${project.artifactId}</name>
+    <description>szfy-common</description>
+    <packaging>jar</packaging>
 
-    <modules>
-        <module>szfy-common</module>
-        <module>szfy-framework-web</module>
-    </modules>
 
 
 </project>

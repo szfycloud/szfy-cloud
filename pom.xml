@@ -5,11 +5,14 @@
     <groupId>com.szfycloud.szfy</groupId>
     <artifactId>szfy-cloud</artifactId>
     <version>${revision}</version>
-    <name>szfy-cloud</name>
+    <name>${project.artifactId}</name>
     <packaging>pom</packaging>
 
     <properties>
         <revision>1.0.0</revision>
+        <java.version>17</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
 
     <modules>

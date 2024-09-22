@@ -9,6 +9,12 @@
     </parent>
     <packaging>pom</packaging>
     <artifactId>szfy-module-system</artifactId>
+    <name>${project.artifactId}</name>
+
+    <modules>
+        <module>szfy-module-system-biz</module>
+        <module>szfy-module-system-api</module>
+    </modules>
 
 
 </project>
